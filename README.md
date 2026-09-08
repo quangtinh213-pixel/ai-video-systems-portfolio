@@ -12,12 +12,12 @@ không phải một bản sao của các workspace sản xuất có dữ liệu 
 
 | Dự án | Tôi đã xây dựng | Bằng chứng chính |
 |---|---|---|
-| [MEO CLUB](projects/meo-club.md) | Điều phối TikTok LIVE → OBS cho 5 mèo AI, quà tặng kích hoạt media, bảng điểm realtime và trang quản trị local | Node.js, WebSocket, state recovery, backpressure, atomic write; 9/9 test pass và kiểm tra tích hợp local pass |
-| [Create Video with AI](projects/create-video-with-ai.md) | Pipeline 8 bước từ context/bài báo đến video Remotion có voiceover và phụ đề theo timeline | Remotion, TTS/STT, source evidence, template router; 12 test file, 40/40 test pass |
-| [EPUB → YouTube Story Video](projects/epub-to-youtube.md) | Chuyển EPUB thành video kể chuyện: tách cảnh, TTS, ảnh, phụ đề ASS, Ken Burns, thumbnail và metadata | Python, Edge TTS, FFmpeg/ffprobe, cache có thể chạy tiếp; đã có video mẫu render |
-| [Thiên Mộ Kể Chuyện / Video Workflow OS](projects/thien-mo-video-os.md) | Hệ thống sản xuất truyện dài có stage gate, voice làm clock, manifest/hash, review/master và YouTube release prep | InkOS bridge, Remotion, FFmpeg, QA fail-closed, human review gates |
-| [VieNeu-TTS](projects/vieneu-tts.md) | Sản phẩm TTS tiếng Việt chạy local với voice cloning, ONNX/CPU, GPU path và streaming | Repo công khai: [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) |
-| [YouTube View Ngoại](projects/youtube-view-ngoai.md) | Biến workflow kể chuyện thành pipeline international-English với inheritance, target-language adaptation và release gates | Python scripts, cấu hình kế thừa, voice/timeline/asset/master gates |
+| [MEO CLUB](meo-club.md) | Điều phối TikTok LIVE → OBS cho 5 mèo AI, quà tặng kích hoạt media, bảng điểm realtime và trang quản trị local | Node.js, WebSocket, state recovery, backpressure, atomic write; 9/9 test pass và kiểm tra tích hợp local pass |
+| [Create Video with AI](create-video-with-ai.md) | Pipeline 8 bước từ context/bài báo đến video Remotion có voiceover và phụ đề theo timeline | Remotion, TTS/STT, source evidence, template router; 12 test file, 40/40 test pass |
+| [EPUB → YouTube Story Video](epub-to-youtube.md) | Chuyển EPUB thành video kể chuyện: tách cảnh, TTS, ảnh, phụ đề ASS, Ken Burns, thumbnail và metadata | Python, Edge TTS, FFmpeg/ffprobe, cache có thể chạy tiếp; đã có video mẫu render |
+| [Thiên Mộ Kể Chuyện / Video Workflow OS](thien-mo-video-os.md) | Hệ thống sản xuất truyện dài có stage gate, voice làm clock, manifest/hash, review/master và YouTube release prep | InkOS bridge, Remotion, FFmpeg, QA fail-closed, human review gates |
+| [VieNeu-TTS](vieneu-tts.md) | Sản phẩm TTS tiếng Việt chạy local với voice cloning, ONNX/CPU, GPU path và streaming | Repo công khai: [pnnbao97/VieNeu-TTS](https://github.com/pnnbao97/VieNeu-TTS) |
+| [YouTube View Ngoại](youtube-view-ngoai.md) | Biến workflow kể chuyện thành pipeline international-English với inheritance, target-language adaptation và release gates | Python scripts, cấu hình kế thừa, voice/timeline/asset/master gates |
 
 ## Năng lực nổi bật
 
@@ -49,4 +49,4 @@ hạn chế sẽ không được copy tự động vào repo công khai. Với d
 upstream, portfolio ghi rõ vai trò tích hợp hoặc mở rộng thay vì nhận toàn bộ
 codebase là sản phẩm gốc.
 
-Xem thêm: [quy tắc đóng gói và attribution](projects/publishing-scope.md).
+Xem thêm: [quy tắc đóng gói và attribution](publishing-scope.md)
